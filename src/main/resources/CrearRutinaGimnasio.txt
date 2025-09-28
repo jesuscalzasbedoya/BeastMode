@@ -1,0 +1,24 @@
+Title: Crear rutina de gimnasio
+
+Descripción:
+Como usuario que entrena en gimnasio
+Quiero poder crear una rutina con máquinas y pesas disponibles
+Para poder realizarla en el gimnasio
+
+Conversación:
+Para crear una rutina de gimnasio tengo que indicar que ejercicios quiero
+hacer, cuantas series, repeticiones y peso. La rutina tiene que empezar vacía.
+
+Criterios
+CA1: Dado el sistema de rutinas de gimnasio,
+     Cuando creo una rutina,
+     Entonces puedo elegir los ejercicio y cuantas seres y repeticiones de cada ejercicio
+CA2: Dado el sistema de rutinas de gimnasio,
+     Cuando creo una rutina sin ejercicios
+     Entonces recibo un mensaje de error "No has indicado ningun ejercicio"
+CA3: Dado el sistema de rutinas de gimnasio,
+     Cuando creo una rutina con ejercicios pero hay alguno sin ninguna serie,
+     Entonces recibo un mensaje de error "Hay algún ejercicio sin ninguna serie indicada"
+CA4: Dado el sistema de rutinas de gimnasio
+     Cuando creo una rutina con ejercicios y series, pero hay alguna que no tiene indicado las reticiones o peso"
+     Entonces recibo un mensaje de error "Hay alguna serie incompleta"
